@@ -24,4 +24,5 @@
     <string name="descripcion">Descripcion</string>
     <string name="creditos">Creditos</string>
     <string name="cumple">Cumpleaños</string>
+    <string name="salir">Salir</string>
 </resources>

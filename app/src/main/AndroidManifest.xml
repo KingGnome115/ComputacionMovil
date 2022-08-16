@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CVSX">
         <activity
+            android:name=".Datos"
+            android:exported="false" />
+        <activity
             android:name=".Formulario2"
             android:exported="false" />
         <activity

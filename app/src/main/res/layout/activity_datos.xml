@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Formulario2">
+    tools:context=".Datos">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
                 android:text="@string/formulario"
                 android:gravity="center"/>
             <EditText
-                android:id="@+id/etxtFNombre"
+                android:id="@+id/etxtDNombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -29,7 +29,7 @@
                 android:importantForAutofill="no"
                 android:inputType="textPersonName"/>
             <EditText
-                android:id="@+id/etxtFPhone"
+                android:id="@+id/etxtDPhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -37,7 +37,7 @@
                 android:importantForAutofill="no"
                 android:inputType="phone"/>
             <EditText
-                android:id="@+id/etxtFBirthday"
+                android:id="@+id/etxtDBirthday"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -45,59 +45,24 @@
                 android:importantForAutofill="no"
                 android:inputType="date"/>
             <TextView
+                android:id="@+id/tvDSexo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/genero"/>
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <RadioButton
-                    android:id="@+id/rbtFMujer"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/mujer"/>
-                <RadioButton
-                    android:id="@+id/rbtFHombre"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/hombre"/>
-            </RadioGroup>
+                android:text="@string/genero"
+                android:gravity="center"/>
             <TextView
+                android:id="@+id/tvDColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/color"/>
-            <CheckBox
-                android:id="@+id/chkbFRojo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rojo"/>
-            <CheckBox
-                android:id="@+id/chkbFVerde"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/verde"/>
-            <CheckBox
-                android:id="@+id/chkbFAmarillo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/amarillo"/>
-            <CheckBox
-                android:id="@+id/chkbFAzul"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/azul"/>
+                android:text="@string/color"
+                android:gravity="center"/>
+
             <Button
-                android:id="@+id/btnFMostrar"
+                android:id="@+id/btnDFoto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="@string/mostrar"/>
-            <Button
-                android:id="@+id/btnFLimpiar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="@string/limpiar"/>
+                android:text="@string/foto"/>
             <Button
                 android:id="@+id/btnFSalir"
                 android:layout_width="match_parent"
