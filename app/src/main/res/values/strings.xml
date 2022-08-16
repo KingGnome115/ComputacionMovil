@@ -1,0 +1,27 @@
+<resources>
+    <string name="saludos">Bienvenidos</string>
+    <string name="app_name">Ciclo de Vida</string>
+    <string name="usuario">Ingrese su usuario</string>
+    <string name="password">Ingrese su password</string>
+    <string name="cerrar">Salir</string>
+    <string name="ingreso">Ingreso</string>
+    <string name="formulario">Formulario</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="genero">Sexo</string>
+    <string name="mujer">Mujer</string>
+    <string name="hombre">Hombre</string>
+    <string name="color">Color de su preferencia</string>
+    <string name="rojo">Rojo</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="azul">Azul</string>
+    <string name="verde">Verde</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="datos">Datos</string>
+    <string name="foto">Tomar Foto</string>
+    <string name="camara">Camara</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="creditos">Creditos</string>
+    <string name="cumple">Cumpleaños</string>
+</resources>
