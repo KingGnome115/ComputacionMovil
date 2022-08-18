@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
     @Override
     protected void onStart(){ //Al momento de iniciar
         super.onStart();
@@ -61,5 +62,5 @@ public class MainActivity extends AppCompatActivity {
     {
         super.onDestroy();
         Toast.makeText(this, "En OnDestroy", Toast.LENGTH_SHORT).show();
-    }
+    }**/
 }
