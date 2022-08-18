@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     Button btnAcceso;
+    Button btnSalir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +19,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "En OnStart", Toast.LENGTH_SHORT).show();
         btnAcceso = findViewById(R.id.btnMMostrar);
+        btnSalir = findViewById(R.id.btnSalirMain);
         btnAcceso.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, Formulario2.class);
                 startActivity(intent);
+            }
+        });
+
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Bye bye", Toast.LENGTH_SHORT).show();
+                finishAffinity();
             }
         });
 

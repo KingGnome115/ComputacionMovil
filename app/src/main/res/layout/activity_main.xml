@@ -34,16 +34,17 @@
                 android:inputType="textPassword"
                 android:importantForAutofill="no"/>
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="@string/cerrar"/>
-            <Button
                 android:id="@+id/btnMMostrar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="@string/mostrar"/>
+            <Button
+                android:id="@+id/btnSalirMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/cerrar"/>
 
 
         </LinearLayout>
