@@ -20,10 +20,9 @@
                 android:gravity="center"/>
 
             <ImageView
-                android:id="@+id/iVFoto"
+                android:id="@+id/iVFotoTR"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
-                app:srcCompact="@colorAcent"
                 android:contentDescription="@string/descripcion"/>
 
             <Button
@@ -41,7 +40,7 @@
                 android:text="@string/creditos">
             </Button>
             <Button
-                android:id="@+id/btnOVFoto"
+                android:id="@+id/btnOVActivarCamara"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"

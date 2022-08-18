@@ -37,13 +37,13 @@
                 android:importantForAutofill="no"
                 android:inputType="phone"/>
             <EditText
-                android:id="@+id/etxtDBirthday"
+                android:id="@+id/etxtDEdad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:hint="@string/cumple"
+                android:hint="@string/edad"
                 android:importantForAutofill="no"
-                android:inputType="date"/>
+                android:inputType="number"/>
             <TextView
                 android:id="@+id/tvDSexo"
                 android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 android:gravity="center"/>
 
             <Button
-                android:id="@+id/btnDFoto"
+                android:id="@+id/btnDTomarFoto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
