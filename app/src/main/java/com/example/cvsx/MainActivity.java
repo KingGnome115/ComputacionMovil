@@ -8,10 +8,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import java.util.Map;
+
 public class MainActivity extends AppCompatActivity {
 
     Button btnAcceso;
     Button btnSalir;
+    Button btnMapa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "En OnStart", Toast.LENGTH_SHORT).show();
         btnAcceso = findViewById(R.id.btnMMostrar);
         btnSalir = findViewById(R.id.btnSalirMain);
+        btnMapa = findViewById(R.id.btnMapa);
         btnAcceso.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Bye bye", Toast.LENGTH_SHORT).show();
                 finishAffinity();
+            }
+        });
+
+        btnMapa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Mapa.class);
+                startActivity(intent);
             }
         });
 
